@@ -11,7 +11,7 @@ public class Student {
         FN= "John";//this is a constructor --it alaways has to be under the class--
         LN="Jonas";
         Sid= 120;
-    }
+    } //if the constrctor is there without any deafults it will be an error ex:like if you get reid of the first initlazied oned and only the second one
 Student(String FN, String LN, int Sid){    //inside the parentehsis is called parameters
        this.FN=FN;
        this.LN=LN;
